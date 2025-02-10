@@ -19,6 +19,19 @@
 
 ---
 
+## Environment Setup
+
+### Install Python
+Instructions on how to install Python on your system.
+
+### Create a Virtual Environment
+Use the following commands to create and activate a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+---
+
 
 ## Environment Setup
 (Details about installing dependencies and setting up the development environment) 
