@@ -1,15 +1,24 @@
 "# Python Backend Stack Documentation
 
-## 📌 Table of Contents:
+# 📌 Table of Contents:
+
 1. [Environment Setup](#environment-setup)
-3. [Using Docker and Docker-Compose](#using-docker-and-docker-compose)
-4. [Technology Stack](#technology-stack)
-5. [Linting Standards](#linting-standards)
-6. [Dependency Management](#dependency-management)
-7. [Latest Technologies](#latest-technologies)
-8. [FastAPI](#fastapi)
+   - [Install Python](#install-python)
+   - [Create a Virtual Environment](#create-a-virtual-environment)
+   - [Install Required Python Packages](#install-required-python-packages)
+   - [Setup Database (Optional)](#setup-database-optional)
+   - [Use Git for Version Control (Optional)](#use-git-for-version-control-optional)
+   - [Run Your Application](#run-your-application)
+   - [Example Flask API with Documentation](#example-flask-api-with-documentation)
+2. [Using Docker and Docker-Compose](#using-docker-and-docker-compose)
+3. [Technology Stack](#technology-stack)
+4. [Linting Standards](#linting-standards)
+5. [Dependency Management](#dependency-management)
+6. [Latest Technologies](#latest-technologies)
+7. [FastAPI](#fastapi)
 
 ---
+
 
 ## Environment Setup
 (Details about installing dependencies and setting up the development environment) 
