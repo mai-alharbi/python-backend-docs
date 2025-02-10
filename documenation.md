@@ -210,6 +210,113 @@ if __name__ == "__main__":
 ## Using Docker and Docker-Compose
 (How to run the project using Docker and Docker-Compose)
 
+---
+
+# Using Docker and Docker-Compose for Your Python Project
+
+This guide demonstrates how to containerize your Python application using Docker and manage it using Docker-Compose for easier orchestration.
+
+## Prerequisites
+
+- **Docker**: Ensure Docker is installed on your system. You can download it from [here](https://www.docker.com/get-started).
+- **Docker-Compose**: Docker-Compose simplifies the process of managing multi-container applications. You can install Docker-Compose from [here](https://docs.docker.com/compose/install/).
+
+## Step 1: Create a `Dockerfile`
+
+In your project directory, create a file named `Dockerfile`. This file defines the environment for your Python application.
+
+```Dockerfile
+# Use an official Python runtime as a parent image
+FROM python:3.9-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the current directory contents into the container
+COPY . /app
+
+# Install any needed packages specified in requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Make port 8000 available to the world outside this container
+EXPOSE 8000
+
+# Define the command to run your app
+CMD ["python", "app.py"]
+```
+
+### Explanation:
+- `FROM python:3.9-slim`: Use the official Python image (with a slim version to minimize the image size).
+- `WORKDIR /app`: Set `/app` as the working directory in the container.
+- `COPY . /app`: Copy your project files into the container.
+- `RUN pip install --no-cache-dir -r requirements.txt`: Install your dependencies from `requirements.txt`.
+- `EXPOSE 8000`: Expose port 8000 for your application (adjust this to the port your app uses).
+- `CMD ["python", "app.py"]`: This is the default command to run your Python app (replace `app.py` with your script if needed).
+
+## Step 2: Create a `docker-compose.yml`
+
+Now create a `docker-compose.yml` file to define your multi-container application (if applicable). If you're just running one container, this file will be simpler.
+
+```yaml
+version: '3'
+services:
+  python-app:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - ENV=development
+```
+
+### Explanation:
+- `version: '3'`: Defines the version of the Docker-Compose file format.
+- `services`: Defines the services for the application.
+  - `python-app`: The name of your service.
+    - `build: .`: Builds the Docker image from the current directory (`.`).
+    - `ports: "8000:8000"`: Maps port 8000 on the host to port 8000 in the container.
+    - `volumes: .:/app`: Mounts your project directory to `/app` in the container, allowing code changes to reflect immediately.
+    - `environment`: Set environment variables for the container (e.g., `ENV=development`).
+
+## Step 3: Build and Run Your Containers
+
+Now you can use Docker-Compose to build and run your application.
+
+1. Build your Docker images:
+   ```bash
+   docker-compose build
+   ```
+
+2. Start your containers:
+   ```bash
+   docker-compose up
+   ```
+
+   This will start your application and bind the ports. You can now access it at `http://localhost:8000`.
+
+## Step 4: Stopping the Containers
+
+To stop your containers, run:
+
+```bash
+docker-compose down
+```
+
+This will stop and remove the containers.
+
+## Optional: Using `docker-compose` in Development
+
+If you’re working on a local development environment, you may want to use the `--build` option to automatically rebuild images if there are changes in your Dockerfile or application:
+
+```bash
+docker-compose up --build
+```
+
+
+
+
+
 ## Technology Stack
 (Overview of the tools and technologies used)
 
