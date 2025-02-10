@@ -1,15 +1,9 @@
 "# Python Backend Stack Documentation
 
-# 📌 Table of Contents:
+# Python Backend Stack Documentation
 
+## 📌 Table of Contents:
 1. [Environment Setup](#environment-setup)
-   - [Install Python](#install-python)
-   - [Create a Virtual Environment](#create-a-virtual-environment)
-   - [Install Required Python Packages](#install-required-python-packages)
-   - [Setup Database (Optional)](#setup-database-optional)
-   - [Use Git for Version Control (Optional)](#use-git-for-version-control-optional)
-   - [Run Your Application](#run-your-application)
-   - [Example Flask API with Documentation](#example-flask-api-with-documentation)
 2. [Using Docker and Docker-Compose](#using-docker-and-docker-compose)
 3. [Technology Stack](#technology-stack)
 4. [Linting Standards](#linting-standards)
@@ -20,15 +14,27 @@
 ---
 
 ## Environment Setup
+(Details about installing dependencies and setting up the development environment)
 
-### Install Python
-Instructions on how to install Python on your system.
+## Using Docker and Docker-Compose
+(How to run the project using Docker and Docker-Compose)
 
-### Create a Virtual Environment
-Use the following commands to create and activate a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+## Technology Stack
+(Overview of the tools and technologies used)
+
+## Linting Standards
+(Details about code formatting and linting tools like Flake8 and Black)
+
+## Dependency Management
+(How to handle libraries and manage dependencies)
+
+## Latest Technologies
+(Updates on new technologies and how they are utilized)
+
+## FastAPI
+(Details on using FastAPI for the project)
+
+
 
 ---
 
