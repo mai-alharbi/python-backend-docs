@@ -2,7 +2,6 @@
 
 ## 📌 Table of Contents:
 1. [Environment Setup](#environment-setup)
-   -**Install Python** 
 3. [Using Docker and Docker-Compose](#using-docker-and-docker-compose)
 4. [Technology Stack](#technology-stack)
 5. [Linting Standards](#linting-standards)
