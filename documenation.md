@@ -1,6 +1,6 @@
 "# Python Backend Stack Documentation
 
-# 📌 **Table of Contents:** 
+# 📌 **Table of Contents:**  
 
 1. [Environment Setup](#environment-setup)
    - [Install Python](#install-python)
