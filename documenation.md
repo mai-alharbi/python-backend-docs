@@ -61,13 +61,3 @@
 
 ---
 
-## Environment Setup
-
-### Install Python
-Instructions for installing Python on different operating systems.
-
-### Create a Virtual Environment
-How to create and activate a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
