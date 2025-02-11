@@ -64,7 +64,7 @@ It looks like you're preparing an organized structure for **Python environment s
 
 ---
 
-## 1. **[Environment Setup](#environment-setup)**
+## 1.**[Environment Setup](#environment-setup)**
 
 Setting up a Python development environment ensures that you can write and run Python code in a clean and isolated environment, making it easier to manage dependencies and avoid conflicts between different projects.
 
