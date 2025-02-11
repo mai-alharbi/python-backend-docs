@@ -235,7 +235,7 @@ Your app should now be running locally at `http://127.0.0.1:5000`.
 
 ---
 
-### 1.7. **[Example Flask API with Documentation](#example-flask-api-with-documentation)**
+### **[Example Flask API with Documentation](#example-flask-api-with-documentation)**
 
 Here's an example of how you can set up a **Flask API** with basic documentation.
 
