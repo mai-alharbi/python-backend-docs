@@ -64,7 +64,7 @@
  ```
 ## 1. **[Environment Setup](#environment-setup)**
 
-  ```
+  ---
 ### **[Install Python](#install-python)**
 
 Before you can use Python, you'll need to install it on your system.
