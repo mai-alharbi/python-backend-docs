@@ -62,7 +62,7 @@
 ---
 ---
 
-### 1. **Install Python**
+### **Install Python**
 
 First, you need to install Python on your system.
 
