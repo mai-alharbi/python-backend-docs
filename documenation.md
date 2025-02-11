@@ -824,9 +824,6 @@ Python provides several linting tools that can be used to enforce PEP 8 standard
   isort your_python_file.py
   ```
 
-  **Configuration:**
-  - `--profile black`: If you’re using Black, this option ensures that the imports are formatted according to Black’s preferences.
-
 ---
 
 ### **[Common Linting Rules and Configurations](#common-linting-rules-and-configurations)**
