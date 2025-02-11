@@ -3,7 +3,6 @@
 # 📌 **Table of Contents:**  
  
 1. [Environment Setup](#environment-setup)
-   - [test](#environment-setup)
    - [Install Python](#install-python)
    - [Create a Virtual Environment](#create-a-virtual-environment)
    - [Install Required Python Packages](#install-required-python-packages)
