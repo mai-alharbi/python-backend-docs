@@ -60,10 +60,15 @@
    - [Use Cases for FastAPI](#use-cases-for-fastapi)
 
 ---
+It looks like you're preparing an organized structure for **Python environment setup** and perhaps need help elaborating on each section. Below is a detailed breakdown and guide to each of the steps mentioned:
 
+---
 
 ## 1. **[Environment Setup](#environment-setup)**
-```
+
+Setting up a Python development environment ensures that you can write and run Python code in a clean and isolated environment, making it easier to manage dependencies and avoid conflicts between different projects.
+
+---
 
 ### **[Install Python](#install-python)**
 
@@ -177,7 +182,7 @@ Depending on the application you're building, you may need to set up a database.
 
 ---
 
-### **[Use Git for Version Control (Optional)](#use-git-for-version-control-optional)**
+### 1.5. **[Use Git for Version Control (Optional)](#use-git-for-version-control-optional)**
 
 Git is a powerful version control system that tracks changes to your code and allows for collaboration.
 
@@ -208,7 +213,7 @@ Git is a powerful version control system that tracks changes to your code and al
 
 ---
 
-###  **[Run Your Application](#run-your-application)**
+### **[Run Your Application](#run-your-application)**
 
 Once your environment is set up, you can run your Python application. Here's how to run a simple **Flask** app:
 
