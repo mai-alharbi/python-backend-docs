@@ -708,17 +708,15 @@ When it comes to scaling applications, **Kubernetes** (often abbreviated as **K8
   - Kubernetes helps manage and orchestrate the services defined in Docker Compose for large-scale applications.
 
 ---
-Here’s a detailed breakdown of **Linting Standards** for Python development, focusing on Python Enhancement Proposals (PEP), available linting tools, and common linting rules and configurations.
-
 ---
 
-## 4. **[Linting Standards](#linting-standards)**
+## **[Linting Standards](#linting-standards)**
 
 Linting is an essential part of maintaining code quality. It involves analyzing your source code to find potential issues, enforce style guidelines, and catch common mistakes. Python has standardized many of its linting conventions through **PEP (Python Enhancement Proposals)**, and there are several tools available to automatically enforce these standards.
 
 ---
 
-### 4.1. **[Python Enhancement Proposals (PEP)](#python-enhancement-proposals-pep)**
+### **[Python Enhancement Proposals (PEP)](#python-enhancement-proposals-pep)**
 
 PEPs are official design documents that provide information to the Python community or describe a new feature for Python. When it comes to linting and style guidelines, the most relevant PEPs are:
 
@@ -753,7 +751,7 @@ PEP 8 and PEP 257 together form the backbone of Python's coding conventions and 
 
 ---
 
-### 4.2. **[Linting Tools for Python](#linting-tools-for-python)**
+### **[Linting Tools for Python](#linting-tools-for-python)**
 
 Python provides several linting tools that can be used to enforce PEP 8 standards and other coding best practices. Below are some of the most popular tools:
 
@@ -824,13 +822,16 @@ Python provides several linting tools that can be used to enforce PEP 8 standard
   isort your_python_file.py
   ```
 
+  **Configuration:**
+  - `--profile black`: If you’re using Black, this option ensures that the imports are formatted according to Black’s preferences.
+
 ---
 
 ### **[Common Linting Rules and Configurations](#common-linting-rules-and-configurations)**
 
 When configuring linting for your Python project, several common rules should be enforced to maintain consistency and high code quality.
 
-#### **Line Length**
+#### 1. **Line Length**
 - Enforcing a line length of 79 or 80 characters is a widely accepted standard. It ensures that code is easily readable, especially when reviewing pull requests or working with side-by-side diff views.
 
   **Config Example (Flake8 or Pylint)**:
@@ -838,7 +839,7 @@ When configuring linting for your Python project, several common rules should be
   max-line-length = 79
   ```
 
-#### **Imports**
+#### 2. **Imports**
 - The order of imports should follow the guidelines from PEP 8:
   - Standard library imports first.
   - Third-party library imports second.
@@ -850,7 +851,7 @@ When configuring linting for your Python project, several common rules should be
   profile = black
   ```
 
-#### **Blank Lines**
+#### 3. **Blank Lines**
 - Two blank lines should be used to separate top-level function and class definitions. One blank line is used inside functions and classes to separate logical sections of code.
 
   **Config Example (Flake8)**:
@@ -859,7 +860,7 @@ When configuring linting for your Python project, several common rules should be
   max-line-length = 79
   ```
 
-#### **Docstrings**
+#### 4. **Docstrings**
 - Ensure that all public functions, methods, and classes have docstrings that explain their purpose. The docstring should be a description of the function’s behavior and any important details about its arguments and return values.
 
   **Config Example (Pylint)**:
@@ -868,7 +869,7 @@ When configuring linting for your Python project, several common rules should be
   disable=missing-docstring
   ```
 
-#### **Whitespace and Indentation**
+#### 5. **Whitespace and Indentation**
 - Consistent indentation is crucial for Python code, as Python uses indentation to define code blocks. The standard is 4 spaces per indentation level.
 
   **Config Example (Flake8)**:
@@ -877,7 +878,7 @@ When configuring linting for your Python project, several common rules should be
   indent-size = 4
   ```
 
-#### **Complexity and Function Length**
+#### 6. **Complexity and Function Length**
 - It's a good idea to limit the complexity of functions (e.g., cyclomatic complexity) and ensure that functions are not excessively long.
 
   **Config Example (Pylint)**:
@@ -887,5 +888,4 @@ When configuring linting for your Python project, several common rules should be
   ```
 
 ---
-
 
