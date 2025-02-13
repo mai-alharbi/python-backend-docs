@@ -180,7 +180,7 @@ Depending on the application you're building, you may need to set up a database.
 
 ---
 
-### 1.5. **[Use Git for Version Control (Optional)](#use-git-for-version-control-optional)**
+### **[Use Git for Version Control (Optional)](#use-git-for-version-control-optional)**
 
 Git is a powerful version control system that tracks changes to your code and allows for collaboration.
 
