@@ -17,8 +17,7 @@
    - [Using Docker-Compose in Development](#using-docker-compose-in-development)
 4. [Technology Stack](#technology-stack)
    - [Programming Language: Python](#programming-language-python)
-   - [Package Management: pip, requirements.txt, and Poetry]
-   - [Containerization: Docker](#containerization-docker)
+   - [Package Management: pip, requirements.txt, and Poetry](#package-management-pip-requirementstxt-and-poetry)
    - [Multi-Container Orchestration: Docker-Compose](#multi-container-orchestration-docker-compose)
    - [Container Interaction: Network and Volume](#container-interaction-network-and-volume)
    - [Web Framework: Flask or Django (Optional)](#web-framework-flask-or-django-optional)
