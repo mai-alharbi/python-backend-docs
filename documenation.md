@@ -1,4 +1,3 @@
-"# Python Backend Stack Documentation
 
 # 📌 **Table of Contents:**  
  
