@@ -1569,7 +1569,7 @@ FastAPI is highly suitable for a variety of use cases:
 
 ---
 
-### [ Test Your Code](#how-to-test-your-code)
+### [ Test Your Code](#test-your-code)
 
 
 #### **Testing Frameworks**
