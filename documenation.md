@@ -56,7 +56,7 @@
    - [Running the FastAPI Application](#running-the-fastapi-application)
    - [FastAPI Advantages Over Other Frameworks](#fastapi-advantages-over-other-frameworks)
    - [Use Cases for FastAPI](#use-cases-for-fastapi)
- 9. [Test Your Code](#how-to-test-your-code)
+ 9. [Test Your Code](#test-your-code)
 
 
 ---
