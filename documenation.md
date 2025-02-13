@@ -33,10 +33,10 @@
 6. [Dependency Management](#dependency-management)
    - [Virtual Environment](#virtual-environment)
    - [Package Managers](#package-managers)
+   - [Common Dependency Manager Tools](#common-dependency-manager-tools)
    - [Requirements Files](#requirements-files)
    - [Dependency Versioning](#dependency-versioning)
    - [Handling Development Dependencies](#handling-development-dependencies)
-   - [Common Dependency Manager Tools](#common-dependency-manager-tools)
    - [Best Practices for Dependency Managers](#best-practices-for-dependency-managers)
 7. [Latest Technologies](#latest-technologies)
    - [Machine Learning and AI Frameworks](#machine-learning-and-ai-frameworks)
@@ -993,7 +993,14 @@ A **package manager** is a tool used to manage libraries and dependencies in a P
   ```
 
 ---
+### **[Common Dependency Manager Tools](#common-dependency-manager-tools)**
 
+- **Pipenv**: A tool for managing virtual environments and dependencies with an easy-to-use interface.
+- **Poetry**: Modern Python dependency management with automatic versioning and packaging.
+- **Conda**: An environment and package manager tailored for data science and scientific computing.
+- **Pip-tools**: A set of tools to help manage dependencies, such as `pip-compile` for generating `requirements.txt` from `setup.py` or `pyproject.toml`.
+
+---
 ### **[Requirements Files](#requirements-files)**
 
 A **requirements file** is a simple text file that lists all the Python dependencies for your project. This ensures that everyone working on the project, or any deployment environment, installs the same packages and versions.
@@ -1093,15 +1100,6 @@ Development dependencies are packages required only for development purposes (e.
   ```bash
   poetry install --dev
   ```
-
----
-
-### **[Common Dependency Manager Tools](#common-dependency-manager-tools)**
-
-- **Pipenv**: A tool for managing virtual environments and dependencies with an easy-to-use interface.
-- **Poetry**: Modern Python dependency management with automatic versioning and packaging.
-- **Conda**: An environment and package manager tailored for data science and scientific computing.
-- **Pip-tools**: A set of tools to help manage dependencies, such as `pip-compile` for generating `requirements.txt` from `setup.py` or `pyproject.toml`.
 
 ---
 
