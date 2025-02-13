@@ -512,11 +512,12 @@ Python is one of the most popular and versatile programming languages, known for
 
 ---
 
-### **[Package Management: pip and requirements.txt](#package-management-pip-and-requirementstxt)**
 
-To manage Python dependencies, **pip** is the default package manager. **requirements.txt** is a file that lists all the dependencies needed for the application.
+### **[Package Management: pip, requirements.txt, and Poetry](#package-management-pip-requirementstxt-and-poetry)**
 
-#### Managing Packages:
+To manage Python dependencies, **pip** is the default package manager, but **Poetry** offers a modern and streamlined alternative. **requirements.txt** is a traditional file that lists all the dependencies needed for the application, whereas Poetry uses `pyproject.toml` and `poetry.lock` to manage and lock dependencies.
+
+#### Managing Packages with pip:
 - **Installing a package**: 
    ```bash
    pip install <package_name>
@@ -531,6 +532,56 @@ To manage Python dependencies, **pip** is the default package manager. **require
    ```bash
    pip install -r requirements.txt
    ```
+
+#### Managing Packages with Poetry:
+- **Installing Poetry**:
+   ```bash
+   curl -sSL https://install.python-poetry.org | python3 -
+   ```
+
+- **Creating a new project with Poetry**:
+   ```bash
+   poetry new <project_name>
+   cd <project_name>
+   ```
+
+- **Adding a dependency**:
+   ```bash
+   poetry add <package_name>
+   ```
+
+- **Installing dependencies**:
+   ```bash
+   poetry install
+   ```
+
+- **Generating a lock file** (automatically done by Poetry):
+   ```bash
+   poetry lock
+   ```
+
+- **Installing dependencies from `pyproject.toml`**:
+   ```bash
+   poetry install
+   ```
+
+- **Running your project inside the Poetry-managed virtual environment**:
+   ```bash
+   poetry shell
+   ```
+
+#### Key Benefits of pip and requirements.txt:
+- **pip** is the default and widely used package manager.
+- **requirements.txt** ensures consistency and easy sharing of dependencies across environments.
+- Straightforward, well-known approach.
+
+#### Key Benefits of Poetry:
+- **Automatic Dependency Management**: Handles installation, updates, and resolution of dependencies.
+- **Unified Tool**: Manages both dependencies and packaging.
+- **Declarative Format**: Uses `pyproject.toml` and `poetry.lock` to ensure reproducibility and easier management.
+- **Built-in Virtual Environment Management**: Poetry creates and manages virtual environments automatically, so no need for `virtualenv`.
+
+---
 
 #### Key Benefits:
 - Ensures consistency across different environments.
