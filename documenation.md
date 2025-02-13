@@ -56,7 +56,7 @@
    - [Running the FastAPI Application](#running-the-fastapi-application)
    - [FastAPI Advantages Over Other Frameworks](#fastapi-advantages-over-other-frameworks)
    - [Use Cases for FastAPI](#use-cases-for-fastapi)
- 9. [How to Test Your Code](#how-to-test-your-code)
+ 9. [Test Your Code](#how-to-test-your-code)
 
 
 ---
@@ -1569,9 +1569,8 @@ FastAPI is highly suitable for a variety of use cases:
 
 ---
 
-### [How to Test Your Code](#how-to-test-your-code)
+### [ Test Your Code](#how-to-test-your-code)
 
-Testing is an essential part of ensuring the reliability and stability of your Python project. This section will guide you on how to set up testing for your project using popular Python testing frameworks, as well as how to test APIs using Postman.
 
 #### **Testing Frameworks**
 There are a variety of testing frameworks in Python. The most popular are:
